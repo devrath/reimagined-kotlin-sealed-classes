@@ -4,7 +4,7 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context="com.demo.android.currency.ConverterActivity">
+  tools:context="com.demo.ConverterActivity">
 
   <EditText
     android:id="@+id/lowAmount"

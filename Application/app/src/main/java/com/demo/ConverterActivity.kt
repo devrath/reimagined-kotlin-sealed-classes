@@ -1,8 +1,9 @@
-package com.demo.android.currency
+package com.demo
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import com.raywenderlich.android.currency.R
 import kotlinx.android.synthetic.main.activity_converter.*
 
@@ -22,14 +23,18 @@ class ConverterActivity : AppCompatActivity() {
     currency.adapter = adapter
 
     convert.setOnClickListener {
-      val low = currencyFromSelection()
-      val high = currencyFromSelection()
+      if(lowAmount.text.toString().isNotEmpty() && highAmount.text.toString().isNotEmpty()){
+        val low = currencyFromSelection()
+        val high = currencyFromSelection()
 
-      low.amount = lowAmount.text.toString().toDouble()
-      high.amount = highAmount.text.toString().toDouble()
+        low.amount = lowAmount.text.toString().toDouble()
+        high.amount = highAmount.text.toString().toDouble()
 
-      lowAmountInDollars.text = String.format("$%.2f", low.totalValueInDollars())
-      highAmountInDollars.text = String.format("$%.2f", high.totalValueInDollars())
+        lowAmountInDollars.text = String.format("$%.2f", low.totalValueInDollars())
+        highAmountInDollars.text = String.format("$%.2f", high.totalValueInDollars())
+      }else{
+        Toast.makeText(this,"Enter values",Toast.LENGTH_LONG).show()
+      }
     }
   }
 

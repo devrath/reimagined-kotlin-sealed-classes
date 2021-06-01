@@ -1,4 +1,4 @@
-package com.demo.android.currency
+package com.demo
 
 
 sealed class AcceptedCurrency {
