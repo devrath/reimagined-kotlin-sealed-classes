@@ -8,7 +8,8 @@
 <a><img src="https://img.shields.io/badge/Concepts-Kotlin%20Sealed%20Classes-black?style=for-the-badge&logo=elixir"></a>  
 </p>
 
-<p align="center"><a><img align="left" src="https://github.com/devrath/devrath/blob/master/images/description.png" width="60" height="60" alt="Description" title="Description"></a></p> 
-This repository demonstrates how to use kotlin sealed classes in android. Check wiki tab above to access the documentation 
+
+* **`This repository demonstrates how to use kotlin sealed classes in android`** 
+* **`Check wiki tab above to access the documentation`**  
 
 ---
