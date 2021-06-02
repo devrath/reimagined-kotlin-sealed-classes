@@ -12,4 +12,7 @@
 * **`This repository demonstrates how to use kotlin sealed classes in android`** 
 * **`Check wiki tab above to access the documentation`**  
 
+![Banner](https://github.com/devrath/reimagined-kotlin-sealed-classes/blob/main/assets/sealedclassImage.png)
+
+
 ---
