@@ -9,8 +9,8 @@
 </p>
 
 
-* **`This repository demonstrates how to use kotlin sealed classes in android`** 
-* **`Check wiki tab above to access the documentation`**  
+* **`Check wiki tab above to access the documentation and some use cases`**  
+* **`This repository demonstrates how to use kotlin sealed in android project`** 
 
 ![Banner](https://github.com/devrath/reimagined-kotlin-sealed-classes/blob/main/assets/sealedclassImage.png)
 
